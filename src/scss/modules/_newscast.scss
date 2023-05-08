@@ -1,0 +1,46 @@
+.newscast {
+  position: relative;
+  color: #ffffff;
+  font-family: HelveticaNeue;
+}
+.newscast-info {
+  position: absolute;
+  left: 5vw;
+  bottom: 7vw;
+  h5 {
+    font-size: 2vw;
+    letter-spacing: 0.32px;
+    bottom: 15vw;
+  }
+  h3 {
+    font-size: 4vw;
+    color: #ffffff;
+    letter-spacing: 0.84px;
+    bottom: 10vw;
+  }
+  p {
+    font-size: 2.5vw;
+    color: #ffffff;
+    bottom: 7vw;
+  }
+}
+
+.note {
+  position: absolute;
+  font-size: 2vw;
+  bottom: 2vw;
+  left: 5vw;
+  a {
+    background: rgba(255, 255, 255, 0.24);
+    border: 1px solid #ffffff;
+    border-radius: 18.5px;
+    text-decoration: none;
+    padding: 0.5vw 2vw;
+  }
+}
+
+@media (min-width: 800px) {
+  .newscast p {
+    color: red;
+  }
+}
