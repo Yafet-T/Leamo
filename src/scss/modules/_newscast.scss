@@ -25,7 +25,7 @@
   }
 }
 
-.note {
+.newscast-note {
   position: absolute;
   font-size: 2vw;
   bottom: 2vw;
@@ -36,11 +36,5 @@
     border-radius: 18.5px;
     text-decoration: none;
     padding: 0.5vw 2vw;
-  }
-}
-
-@media (min-width: 800px) {
-  .newscast p {
-    color: red;
   }
 }
