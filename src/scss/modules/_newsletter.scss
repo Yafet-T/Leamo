@@ -1,0 +1,53 @@
+.newsletter {
+  font-family: HelveticaNeue;
+  color: #ffffff;
+  position: relative;
+
+  h2 {
+    font-size: clamp(30px, 4.5vw, 80px);
+    letter-spacing: 1.26px;
+    margin-top: clamp(23px, 2vw, 70px);
+    margin-left: clamp(25px, 2vw, 68px);
+  }
+
+  img {
+    padding: 0px;
+  }
+}
+
+.text-newsletter {
+  font-size: 2vw;
+  letter-spacing: 0.53px;
+  margin-left: clamp(25px, 2vw, 68px);
+  margin-top: clamp(12px, 1vw, 30px);
+}
+
+@media (max-width: 767px) {
+  .news-img {
+    display: none;
+  }
+}
+
+.news-enter-gmail {
+  background-color: white;
+  margin: 50px 0 15px 0;
+  margin-left: clamp(25px, 1vw, 68px);
+  margin-right: clamp(25px, 1vw, 68px);
+  display: flex;
+  position: relative;
+  padding: 11px 0 11px 0;
+  img {
+    width: 5vw;
+    padding-right: 2vw;
+    position: absolute;
+    right: 0;
+    top: 16px;
+  }
+  p {
+    font-family: HelveticaNeue-Thin;
+    font-size: 20px;
+    color: #a1a1a1;
+    letter-spacing: 0.42px;
+    margin: 0 7vw 0 3vw;
+  }
+}
